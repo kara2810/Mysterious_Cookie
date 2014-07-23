@@ -1,0 +1,12 @@
+package com.kenny2810.mysteriousCookies;
+
+import net.minecraft.item.ItemFood;
+
+public class mysterious_Cookie extends ItemFood{
+
+	public mysterious_Cookie(int food, boolean feedtonimals?) {
+		super(food, feedtonimals);
+		// TODO Auto-generated constructor stub
+	}
+
+}
