@@ -1,10 +1,60 @@
-[14:21:24] [main/INFO]: Setting user: ForgeDevName
-[14:21:26] [Client thread/INFO]: LWJGL Version: 2.9.1
-[14:21:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mysterious Cookies
-[14:21:31] [Sound Library Loader/INFO]: Sound engine started
-[14:21:33] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:21:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:21:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mysterious Cookies
-[14:21:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:21:34] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:21:35] [Sound Library Loader/INFO]: Sound engine started
+[11:41:58] [main/INFO]: Setting user: ForgeDevName
+[11:41:59] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:42:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mysterious Cookies
+[11:42:05] [Sound Library Loader/INFO]: Sound engine started
+[11:42:08] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:42:08] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:42:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mysterious Cookies
+[11:42:08] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:42:08] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:42:09] [Sound Library Loader/INFO]: Sound engine started
+[11:42:25] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[11:42:25] [Server thread/INFO]: Generating keypair
+[11:42:26] [Server thread/INFO]: Preparing start region for level 0
+[11:42:27] [Server thread/INFO]: Preparing spawn area: 68%
+[11:42:27] [Server thread/INFO]: Changing view distance to 9, from 10
+[11:42:28] [Server thread/INFO]: ForgeDevName[local:E:5f5053ea] logged in with entity id 149 at (-205.5001328892301, 64.0, 263.4846197877621)
+[11:42:28] [Server thread/INFO]: ForgeDevName joined the game
+[11:42:28] [Server thread/INFO]: Saving and pausing game...
+[11:42:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:42:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:42:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:43:15] [Server thread/INFO]: [ForgeDevName: Set own game mode to Creative Mode]
+[11:43:15] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[11:43:21] [Server thread/INFO]: [ForgeDevName: Set own game mode to Survival Mode]
+[11:43:21] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[11:44:04] [Server thread/INFO]: [ForgeDevName: Set own game mode to Creative Mode]
+[11:44:04] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[11:44:11] [Server thread/INFO]: [ForgeDevName: Set own game mode to Survival Mode]
+[11:44:11] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[11:44:47] [Server thread/INFO]: Saving and pausing game...
+[11:44:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:44:48] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:44:48] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:44:49] [Server thread/INFO]: Changing view distance to 8, from 9
+[11:46:22] [Server thread/INFO]: [ForgeDevName: Set the time to 18000]
+[11:46:22] [Client thread/INFO]: [CHAT] Set the time to 18000
+[11:49:04] [Server thread/INFO]: Saving and pausing game...
+[11:49:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:49:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:49:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:49:06] [Server thread/INFO]: Changing view distance to 7, from 8
+[11:49:07] [Server thread/INFO]: Saving and pausing game...
+[11:49:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:49:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:49:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:49:09] [Server thread/INFO]: Saving and pausing game...
+[11:49:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:49:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:49:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:52:49] [Server thread/INFO]: Saving and pausing game...
+[11:52:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:52:49] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:52:49] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:52:50] [Client thread/INFO]: Stopping!
+[11:52:50] [Server thread/INFO]: Stopping server
+[11:52:50] [Server thread/INFO]: Saving players
+[11:52:50] [Server thread/INFO]: Saving worlds
+[11:52:50] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:52:50] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:52:50] [Server thread/INFO]: Saving chunks for level 'New World'/The End

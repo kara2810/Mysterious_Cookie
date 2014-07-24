@@ -14,6 +14,7 @@ import net.minecraft.world.World;
 public class mysterious_Cookie extends ItemFood{
 	
 	private static final String MODID = "mysteriouscookies";
+	private boolean alwaysEdible;
 
 	public mysterious_Cookie(int food, boolean feedtonimals){
 		super(food, feedtonimals);
@@ -21,6 +22,7 @@ public class mysterious_Cookie extends ItemFood{
 	        setTextureName(MODID + ":" + "mysteriousCookie");
 	        this.maxStackSize = 64;
 	        this.setCreativeTab(CreativeTabs.tabFood);
+	        this.setAlwaysEdible();
 	    }
 	    public void registerIcons(IIconRegister iconRegister)
 	    {
@@ -33,27 +35,31 @@ public class mysterious_Cookie extends ItemFood{
 	            if (!p_77849_2_.isRemote)
 	            {
 	            	int potion = 0;
+	            	int potency = 0;
+	            	int lenght = 0;
 	            	Random rn = new Random();
-	            	 potion = rn.nextInt(17) + 1;
+	            	potion = rn.nextInt(17) + 1;
+	            	potency = rn.nextInt(5) + 1;
+	            	lenght = rn.nextInt(20000) + 20;
 	            			
 	            switch(potion){
-	            case 1:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.regeneration.id, 600, 2));break;
-	            case 2:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.poison.id, 600, 2));break;
-	            case 3:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.damageBoost.id, 600, 2));break;
-	            case 4:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.blindness.id, 600, 2));break;
-	            case 5:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.moveSlowdown.id, 600, 2));break;
-	            case 6:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.digSlowdown.id, 600, 2));break;
-	            case 7:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 600, 2));break;
-	            case 8:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.digSpeed.id, 600, 2));break;
-	            case 9:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.wither.id, 600, 2));break;
-	            case 10:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.confusion.id, 600, 2));break;
-	            case 11:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.fireResistance.id, 600, 2));break;
-	            case 12:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.resistance.id, 600, 2));break;
-	            case 13:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.waterBreathing.id, 600, 2));break;
-	            case 14:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.hunger.id, 600, 2));break;
-	            case 15:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.weakness.id, 600, 2));break;
-	            case 16:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.jump.id, 600, 2));break;
-	            case 17:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.nightVision.id, 600, 2));break;
+	            case 1:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.regeneration.id, lenght, potency));break;
+	            case 2:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.poison.id, lenght, potency));break;
+	            case 3:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.damageBoost.id, lenght, potency));break;
+	            case 4:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.blindness.id, lenght, potency));break;
+	            case 5:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.moveSlowdown.id, lenght, potency));break;
+	            case 6:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.digSlowdown.id, lenght, potency));break;
+	            case 7:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, lenght, potency));break;
+	            case 8:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.digSpeed.id, lenght, potency));break;
+	            case 9:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.wither.id, lenght, potency));break;
+	            case 10:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.confusion.id, lenght, potency));break;
+	            case 11:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.fireResistance.id, lenght, potency));break;
+	            case 12:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.resistance.id, lenght, potency));break;
+	            case 13:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.waterBreathing.id, lenght, potency));break;
+	            case 14:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.hunger.id, lenght, potency));break;
+	            case 15:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.weakness.id, lenght, potency));break;
+	            case 16:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.jump.id, lenght, potency));break;
+	            case 17:  p_77849_3_.addPotionEffect(new PotionEffect(Potion.nightVision.id, lenght, potency));break;
 	            
 	            }
 	            }
